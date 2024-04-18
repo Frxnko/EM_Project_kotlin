@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleDialog"
+            style="@style/Subtitle01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dialogEditProgress"
+            android:textColor="@color/text" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/status" />
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"/>
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/dateStartInfo" />
+
+        <EditText
+            android:id="@+id/etDialogStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/formatDate" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/dateEndInfo" />
+
+        <EditText
+            android:id="@+id/etDialogEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/formatDate" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/lastReportContractorInfo" />
+
+        <EditText
+            android:id="@+id/etDialogLastReportContractor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/formatDate" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/lastReportSupervisorInfo" />
+
+        <EditText
+            android:id="@+id/etDialogLastReportSupervisor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/formatDate" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/contractorInfo" />
+
+        <EditText
+            android:id="@+id/etDialogContractor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/contractorInfo" />
+
+
+
+        <Button
+            android:id="@+id/btDialogEditProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/edit" />
+
+
+    </LinearLayout>
+
+</ScrollView>

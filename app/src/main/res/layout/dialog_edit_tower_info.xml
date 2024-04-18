@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleDialog"
+            style="@style/Subtitle01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dialogEditTowerInfo"
+            android:textColor="@color/text" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/heightTower" />
+
+        <EditText
+            android:id="@+id/etHeightTorreDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/heightTower"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/typeTower" />
+
+        <EditText
+            android:id="@+id/etTypeTorreDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/typeTower" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/supplierTower" />
+
+        <EditText
+            android:id="@+id/etDialogSupplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/supplierTower" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/towerTxAssociatedInfo" />
+
+        <EditText
+            android:id="@+id/etDialogTxAssociated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/towerTxAssociatedInfo" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/towerTypeProjectInfo" />
+
+        <EditText
+            android:id="@+id/etDialogTypeProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/towerTypeProjectInfo" />
+
+        <Button
+            android:id="@+id/btDialogEditTowerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/edit" />
+
+
+    </LinearLayout>
+
+</ScrollView>

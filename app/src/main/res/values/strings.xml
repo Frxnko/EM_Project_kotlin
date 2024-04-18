@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">EM Project</string>
+
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+
+    <!--    Navigation drawer-->
+    <string name="item_user">Usuario</string>
+    <string name="item_resumen">Resumen</string>
+    <string name="item_projects">Proyectos</string>
+    <string name="item_observations">Observaciones</string>
+    <string name="item_requestForInformation">Requerimientos</string>
+    <string name="item_documentation">Documentación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    principal menu-->
+    <string name="menu_user">Usuario</string>
+    <string name="menu_resumen">Resumen</string>
+    <string name="menu_project">Proyectos</string>
+    <string name="menu_observation">Observaciones</string>
+    <string name="menu_requestForInformation">Requerimiento de información</string>
+    <string name="menu_documentation">Documentación</string>
+
+    <string name="information">Información</string>
+    <string name="projectsAssigned">Asignados</string>
+    <string name="allProjects">Proyectos</string>
+    <string name="detail">Detalle del proyecto</string>
+
+
+    <string name="searchProject">Buscar proyecto…</string>
+
+
+    <!--    LOGIN-->
+    <string name="messageUserOkSave"> El usuario ha sido creado con éxito</string>
+    <string name="messageUserNoOkSave"> Error al guardar el usuario</string>
+    <string name="messageUserNoCreate"> Error al crear el usuario</string>
+    <string name="messageOkSave"> El registro ha sido guardado con éxito</string>
+    <string name="messageNoOkSave"> Error al guardar el registro</string>
+
+    <string name="loginTitle">"Autenticación"</string>
+    <string name="homeTitle">"Inicio"</string>
+    <string name="register">"Registrar"</string>
+    <string name="unLogin">"Cerrar sesión"</string>
+    <string name="names">"Nombre completo"</string>
+    <string name="surname">"Apellido completo"</string>
+    <string name="user">"Usuario/correo"</string>
+    <string name="password">"Contraseña"</string>
+    <string name="repeatPassword">"Repetir contraseña"</string>
+    <string name="provider">"Proveedor"</string>
+    <string name="messageError">"Se ha producido un error autenticando al usuario"</string>
+    <string name="messageLoading">"Espere un momento …"</string>
+    <string name="textAcept">"Aceptar"</string>
+
+    <string name="loginText">Por favor ingrese su información.</string>
+    <string name="email">Correo electrónico</string>
+    <string name="rememberMe">Mantener sesión</string>
+    <string name="forgotPassword">Olvidé mi contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="oRegister">O registrarse</string>
+    <string name="Register">Registrarse</string>
+    <string name="textAccept">"Aceptar"</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="logout">Se ha cerrado la sesión.</string>no iniciado
+    <string name="wait">Espere por favor…</string>
+    <string name="toGoLocation">Ir a ubicación</string>
+    <string name="saveProjectToAssigned">Guardar como proyecto asignado</string>
+    <string name="successfullyAdded">¡El registro ha sido guardado con éxito!</string>
+    <string name="updateProgress">¡El progreso ha sido actualizado!</string>
+    <string name="successfullyEdited">¡El registro ha sido editado con éxito!</string>
+    <string name="existedRegister">¡Ya se tiene registro en la base de datos!</string>
+    <string name="noConnectedBD">¡Se registró un problema con la conexión a la base de datos!</string>
+    <string name="beforeSaved">ya se encuentra agregado</string>
+    <string name="days">días</string>
+    <string name="startText">Inicio</string>
+    <string name="endText">Fin</string>
+    <string name="hintProgress">Ingrese el porcentaje</string>
+    <string name="edit">Editar</string>
+    <string name="title_activity_projects">ProjectsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--    Information Tower-->
+    <string name="noTower">N/A torre</string>
+    <string name="informationText">Información</string>
+    <string name="nodeTxAssociated">Nodo Tx Asociado</string>
+    <string name="approvedCandidate">Candidato aprobado RFT</string>
+    <string name="towerStatus">Estatus de torre</string>
+    <string name="heightTower">Altura de torre (m)</string>
+    <string name="typeTower">Tipo de torre</string>
+    <string name="supplierTower">Proveedor de torre</string>
+    <string name="batchAssociated">BATCH asociado</string>
+    <string name="status">Estatus</string>
+
+    <string name="location">Localidad</string>
+    <string name="district">Distrito</string>
+    <string name="province">Provincia</string>
+    <string name="region">Region</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="version">Versión de ingeniería</string>
+    <string name="typeIng">Tipo de Ingeniería</string>
+    <string name="linkIng">Link de Ingeniería</string>
+    <string name="highSPAT">Alta Resistividad</string>
+    <string name="linkHighSPAT">Link alta Resistividad</string>
+
+    <!--    Status del proyecto-->
+    <string name="notStarted">No iniciado</string>
+    <string name="onProgress">En ejecución</string>
+    <string name="paralyzed">Paralizado</string>
+    <string name="finalized">Finalizado</string>
+
+
+    <string name="notStartedCode">notStarted</string>
+    <string name="onProgressCode">onProgress</string>
+    <string name="paralyzedCode">paralyzed</string>
+    <string name="finalizedCode">finalized</string>
+
+    <!--    menu detail-->
+    <string name="informationDetail">Info</string>
+    <string name="progressDetail">Avance</string>
+    <string name="activitiesDetail">Partidas</string>
+    <string name="moreDetail">Mas…</string>
+
+    <!--    Informacion del proyecto-->
+
+    <string name="infoInfo">Información</string>
+    <string name="locationInfo">Ubicación</string>
+    <string name="toGoLocationInfo">Ir</string>
+    <string name="address">Dirección</string>
+    <string name="regional">Region</string>
+
+    <string name="progressInfo">Avance de obra</string>
+    <string name="statusInfo">Estatus del proyecto</string>
+    <string name="dateStartInfo">Fecha de inicio</string>
+    <string name="dateEndInfo">Fecha de termino</string>
+    <string name="daysProjectInfo">Días en ejecución</string>
+    <string name="percentInfo">Avance estimado(%)</string>
+    <string name="contractorInfo">Contratista</string>
+    <string name="lastReportContractorInfo">Último reporte del contratista</string>
+    <string name="lastReportSupervisorInfo">Último reporte del supervisor</string>
+    <string name="formatDate">yyyy-mm-dd</string>
+
+    <string name="towerInfoInfo">Información de torre</string>
+    <string name="towerHeightInfo">Altura (m)</string>
+    <string name="towerTypeInfo">Tipo</string>
+    <string name="towerSupplierInfo">Proveedor</string>
+    <string name="towerTxAssociatedInfo">Nodo Tx asociado</string>
+    <string name="towerTypeProjectInfo">Tipo de nodo</string>
+
+    <string name="additionalInfoInfo">Información adicional</string>
+    <string name="additionalInfo">Adicionales</string>
+    <string name="highSPATInfo">Alta resistividad</string>
+    <string name="highSPATLinkInfo">Link Alta Resistividad</string>
+    <string name="comments01Info">Comentarios</string>
+    <string name="pmaInfo">PMA</string>
+    <string name="candidateRFTInfo">Candidato RFT</string>
+    <string name="versionInfo">Versión de ingeniería</string>
+    <string name="linkInfo">Enlace de la información</string>
+    <string name="supervisorInfo">Supervisor de obra</string>
+    <string name="paralyzedInfo">Paralizaciones de obra</string>
+
+    <string name="statusItemProgress">Estatus</string>
+
+    <string name="dialogEditLocation">Editar información - Ubicación</string>
+    <string name="dialogEditProgress">Editar información - Avance</string>
+    <string name="dialogEditTowerInfo">Editar información - Torre</string>
+    <string name="dialogAdditionalInfo">Editar información - Información Adicional</string>
+
+    <!--    Observations-->
+
+    <string name="date_Observations">Fecha de observación</string>
+    <string name="activity_Obs">Partidas</string>
+    <string name="description_Obs">Observación</string>
+    <string name="type_Obs">Tipo de observación</string>
+    <string name="references_Obs">Referencias</string>
+    <string name="comments_Obs">Comentarios</string>
+    <string name="resident_Obs">Residente</string>
+    <string name="add_Obs">Agregar</string>
+
+    <!--    types-->
+    <string name="minor_Obs">Bajo</string>
+    <string name="medium_Obs">Medio</string>
+    <string name="serious_Obs">Grave</string>
+
+    <string name="minorCode_Obs">L</string>
+    <string name="mediumCode_Obs">M</string>
+    <string name="seriousCode_Obs">H</string>
+
+    <string name="observed_ObsType">Observado</string>
+    <string name="proposed_ObsType">Solución propuesta</string>
+    <string name="revision_ObsType">En revisión</string>
+    <string name="noValidated_ObsType">No validado</string>
+    <string name="corrected_ObsType">Corregido</string>
+
+    <string name="observedCode_ObsType">Observado</string>
+    <string name="proposedCode_ObsType">Solución propuesta</string>
+    <string name="revisionCode_ObsType">En revisión</string>
+    <string name="noValidatedCode_ObsType">No validado</string>
+    <string name="correctedCode_ObsType">Corregido</string>
+
+    <!--    Report-->
+    <string name="titleReport">Reporte de actividades</string>
+    <string name="progress_Report">Avance de obra</string>
+    <string name="start_Report">Fecha de inicio</string>
+    <string name="end_Report">Fecha de termino</string>
+    <string name="days_Report">Días en ejecución</string>
+    <string name="paralyzed_Report">Paralizaciones</string>
+    <string name="personal_report">Personal en campo</string>
+    <string name="residente_report">Residente de obra</string>
+    <string name="seguridad_report">Ing. de seguridad</string>
+    <string name="master_Report">Maestro de obra</string>
+    <string name="operatics_Report">Operarios</string>
+    <string name="oficiales_Report">Oficiales</string>
+    <string name="peon_Report">Peones</string>
+    <string name="material_Report">Material en campo</string>
+    <string name="tools_Report">Equipos y herramientas</string>
+    <string name="noMaterial_Report">Materiales faltantes</string>
+    <string name="mistakes_Report">Observaciones/Comentarios</string>
+    <string name="ehs_Report">Comentarios EHS</string>
+    <string name="activities_Report">Actividades en ejecución</string>
+    <string name="excecute_Report">Actividades en ejecucion</string>
+
+    <string name="additionalCommentsPAP">Comentarios adicionales</string>
+
+
+    <!--    Progress Windows-->
+    <string name="estimatedProgressText">Avance estimado</string>
+    <string name="noRegisterText">No se tienen registros para este proyecto</string>
+    <string name="addRegisterText">Agregar items</string>
+    <string name="addProgress">Registrar avance</string>
+    <string name="valueSuperior">Ingrese un valor menor o igual a 100</string>
+    <string name="valueInferior">Ingrese un valor mayor a cero</string>
+    <string name="valueEqual">Ingrese un valor diferente al inicial</string>
+    <string name="noValueInserted">Ingrese un valor</string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+
+</resources>

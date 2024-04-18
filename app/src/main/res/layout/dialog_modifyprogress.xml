@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_Progress"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:background="@color/startColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Texto de prueba"
+        style="@style/Entry"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/hintProgress"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        style="@style/Entry"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btSaveProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/addProgress" />
+
+
+</LinearLayout>

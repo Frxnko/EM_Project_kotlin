@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvCodProject"
+        style="@style/Subtitle01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/text"
+        tools:text="Code Project"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDateObsDialog"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCodProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/date_Observations" />
+
+    <EditText
+        android:id="@+id/etDialogDateObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateObsDialog"
+        android:hint="@string/formatDate" />
+
+    <TextView
+        android:id="@+id/tvActivity"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDialogDateObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/activity_Obs" />
+
+    <Spinner
+        android:id="@+id/spinnerObs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvActivity"
+        android:paddingVertical="10dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/description_Obs" />
+
+    <EditText
+        android:id="@+id/etNewObservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+        android:backgroundTint="@color/white"
+        android:hint="@string/description_Obs" />
+
+    <TextView
+        android:id="@+id/tvType"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewObservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/type_Obs" />
+
+    <RadioGroup
+        android:id="@+id/rgStatusPAPItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvType"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/rb01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minor_Obs"
+            app:buttonTint="@color/minor_Obs" />
+
+        <RadioButton
+            android:id="@+id/rb02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medium_Obs"
+            app:buttonTint="@color/medium_Obs" />
+
+        <RadioButton
+            android:id="@+id/rb03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serious_Obs"
+            app:buttonTint="@color/serious_Obs" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvReferences"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgStatusPAPItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/references_Obs" />
+
+    <EditText
+        android:id="@+id/etReferencesObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReferences"
+        android:backgroundTint="@color/white"
+        android:hint="@string/references_Obs" />
+
+    <TextView
+        android:id="@+id/tvComments"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etReferencesObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/comments_Obs" />
+
+    <EditText
+        android:id="@+id/etComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvComments"
+        android:backgroundTint="@color/white"
+        android:hint="@string/comments_Obs" />
+
+    <TextView
+        android:id="@+id/tvResident"
+        style="@style/Subtitle02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/resident_Obs" />
+
+    <EditText
+        android:id="@+id/etResident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResident"
+        android:backgroundTint="@color/white"
+        android:hint="@string/resident_Obs" />
+
+
+    <Button
+        android:id="@+id/btDialogAddObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/buttonColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etResident"
+        android:text="@string/add_Obs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

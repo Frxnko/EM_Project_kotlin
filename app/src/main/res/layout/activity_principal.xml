@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.principal.PrincipalActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcUser"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_perfil"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_user"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcResumen"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imResumen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_resumen"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_resumen"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcProjects"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imProjects"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_project"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_project"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcObservations"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imObservations"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_observation"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_observation"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcRFI"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imRFI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_rfi"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_requestForInformation"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcDocumentation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardBackgroundColor="@color/startColor"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imDocumentation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_documentation"
+                android:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                style="@style/Subtitle01"
+                android:textColor="@color/white"
+                android:text="@string/menu_documentation"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+
+    <color name="primary">#808085</color>
+    <color name="primaryDark">#181818</color>
+    <color name="secondary">#09184D</color>
+    <color name="accent">#7B5BF2</color>
+    <color name="background">#EDF2FA</color>
+    <color name="title">#2F2E2E</color>
+
+    <color name="startColor">#00A7DB</color>
+    <color name="endColor">#162676</color>
+
+    <color name="link">#0022FF</color>
+
+    <color name="iconTowerColor">#8E8B8B</color>
+    <color name="iconNoTowerColor">#8E8B8B</color>
+    <color name="separatorColor">#D9D9D9</color>
+    <color name="buttonColor">#00134D</color>
+
+
+    <color name="text">#DE000000</color>
+    <color name="secondaryText">#8A000000</color>
+    <color name="hintTex">#42000000</color>
+    <color name="icons">#8A000000</color>
+    <color name="disabled">#42000000</color>
+    <color name="divider">#1F000000</color>
+
+    <color name="textInfo01">#004D40</color>
+    <color name="textInfo02">#00134D</color>
+
+    <color name="textItemTitle01">#FA0000</color>
+    <color name="textItem01">#00134D</color>
+    <color name="textItemTitle02">#FA0000</color>
+    <color name="textItem02">#00134D</color>
+    <color name="textLinkable">#0000FA</color>
+
+    <!--    COLOR STATUS PROJECT-->
+    <color name="notStarted">#8E8B8B</color>
+    <color name="onProgress">#92D050</color>
+    <color name="paralyzed">#FA0000</color>
+    <color name="finalized">#00134D</color>
+    <color name="notSpecific">#FFFFFF</color>
+
+    <!--    COLOR DAYS REPORT-->
+    <color name="oneDaysReport">#92D050</color>
+    <color name="twoFiveDaysReport">#FF7E00</color>
+    <color name="moreFiveDaysReport">#FF0000</color>
+
+    <!--    COLOR type obs-->
+    <color name="minor_Obs">#92D050</color>
+    <color name="medium_Obs">#FF7E00</color>
+    <color name="serious_Obs">#FF0000</color>
+
+
+</resources>

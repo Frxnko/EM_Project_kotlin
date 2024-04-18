@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleDialog"
+            style="@style/Subtitle01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dialogAdditionalInfo"
+            android:textColor="@color/text" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/additionalInfo" />
+
+        <EditText
+            android:id="@+id/etDialogAdditional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/additionalInfo"
+            android:textColor="@color/text" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/comments01Info" />
+
+        <EditText
+            android:id="@+id/etDialogComments01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/comments01Info" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/pmaInfo" />
+
+        <EditText
+            android:id="@+id/etDialogPMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/pmaInfo" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/candidateRFTInfo" />
+
+        <EditText
+            android:id="@+id/etDialogCandidateRFT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/candidateRFTInfo" />
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/linkInfo" />
+
+        <EditText
+            android:id="@+id/etDialogLinkInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/linkInfo" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/supervisorInfo" />
+
+        <EditText
+            android:id="@+id/etDialogSupervisor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/supervisorInfo" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/paralyzed_Report" />
+
+        <EditText
+            android:id="@+id/etDialogParalyzed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/paralyzed_Report" />
+
+
+        <TextView
+            style="@style/TextDialogSubtitle"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/additionalCommentsPAP" />
+
+        <EditText
+            android:id="@+id/etDialogComments02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/additionalCommentsPAP" />
+
+        <Button
+            android:id="@+id/btDialogEditTowerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/edit" />
+
+
+    </LinearLayout>
+
+</ScrollView>

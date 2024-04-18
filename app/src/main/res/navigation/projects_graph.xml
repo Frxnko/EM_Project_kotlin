@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/projects_graph"
+    app:startDestination="@id/assignedProjectsFragment">
+
+    <fragment
+        android:id="@+id/allProjectsFragment"
+        android:name="com.em.emproject.ui.projects.allProjects.AllProjectsFragment"
+        android:label="fragment_all_projects"
+        tools:layout="@layout/fragment_all_projects" >
+        <action
+            android:id="@+id/action_allProjectsFragment_to_detailAllActivity"
+            app:destination="@id/detailAllActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignedProjectsFragment"
+        android:name="com.em.emproject.ui.projects.assignedProjects.AssignedProjectsFragment"
+        android:label="fragment_assigned_project"
+        tools:layout="@layout/fragment_assigned_project" >
+        <action
+            android:id="@+id/action_assignedProjectsFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusProjectsFragment"
+        android:name="com.em.emproject.ui.projects.statusProjects.StatusProjectsFragment"
+        android:label="fragment_status_projects"
+        tools:layout="@layout/fragment_status_projects" />
+    <activity
+        android:id="@+id/detailAllActivity"
+        android:name="com.em.emproject.ui.projects.allProjects.DetailAllActivity"
+        android:label="activity_detail_all"
+        tools:layout="@layout/activity_detail_all" >
+        <argument
+            android:name="codeProject"
+            app:argType="string" />
+    </activity>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.em.emproject.ui.projects.detailAssignedProject.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail" >
+        <argument
+            android:name="codeProject"
+            app:argType="string" />
+    </activity>
+</navigation>
